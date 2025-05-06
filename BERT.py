@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-# Función para analizar emociones en texto
+# Función para analizar emociones en texto, solo con texto en inglés
 def analyze_text_emotion(text: str) -> dict:
     classifier = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base", return_all_scores=True)
     scores = classifier(text)[0]
@@ -12,7 +12,7 @@ def read_text_from_file(file_path: str) -> str:
         return file.read()
 
 # Ruta del archivo .txt
-file_path = "text_data/tristeza_trans.txt" 
+file_path = "text_data/emociones.txt" 
 
 # Leer el texto del archivo
 texto = read_text_from_file(file_path)
