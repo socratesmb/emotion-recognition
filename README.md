@@ -124,6 +124,11 @@ python main.py
   3. Envía un prompt al LLM.
   4. Imprime la emoción predominante con emoji.
 
+### 4. Esquema de funcionamiento
+
+Para visualizar el flujo del modelo, a continuación se muestra el diagrama de funcionamiento:
+
+diagram.png
 ---
 
 ## 📂 Estructura detallada
