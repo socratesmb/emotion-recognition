@@ -128,7 +128,7 @@ python main.py
 
 Para visualizar el flujo del modelo, a continuación se muestra el diagrama de funcionamiento:
 
-!(diagram.png)
+!(/diagram.png)
 ---
 
 ## 📂 Estructura detallada
