@@ -1,7 +1,7 @@
 import whisper
 import os
 
-audio_path = "audio_data/tristeza.wav"
+audio_path = "audio_data/sorpresa.wav"
 # Función para transcribir audio
 def transcribe_audio(audio_path):
     # Carga el modelo; opciones: tiny, base, small, medium, large
@@ -20,4 +20,4 @@ with open(output_path, "w", encoding="utf-8") as file:
     file.write(text["text"])
 
 # Imprimir el resultado
-print("Texto transcrito: ", text["text"])
+print("Texto transcrito: ", text["text"].strip())
