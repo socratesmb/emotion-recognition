@@ -61,7 +61,8 @@ pip install -r requirements.txt
 1. Clona el repositorio:
 
    ```bash
-   git clone [https://github.com/socratesmb/emotion-recognition.git](https://github.com/socratesmb/emotion-recognition.git) cd emotion-recognition
+   git clone https://github.com/socratesmb/emotion-recognition.git 
+   cd emotion-recognition
    ```
 
 2. Crea y activa un entorno virtual (recomendado):
@@ -84,7 +85,7 @@ pip install -r requirements.txt
     # Linux/macOS
     sudo apt-get install ffmpeg
     # Windows
-    # Descargar desde https://ffmpeg.org/download.html y configurar variable PATH
+    Descargar desde https://ffmpeg.org/download.html y configurar variable PATH
     ```
 
 ---
